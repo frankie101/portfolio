@@ -26,6 +26,11 @@ img{
     align-items: center;
     width: 30%;
 }
+.main-nav{
+
+    text-align: center;     
+
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -51,9 +56,7 @@ ul {
     background-color: #000;
     color: white;
   }
-  li {
-        text-align: center;     
-  }
+
   .about-section,
   .experience-section,
   .skills-section,
@@ -134,3 +137,16 @@ ul {
     padding-right: 120px;
     padding-bottom: 80px;
   }
+  .icons{
+    width: auto;
+    height: auto;
+   
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+  ol{
+    list-style-image: url(../images/medal.png);
+  }
+li span{
+  display: inline;
+}
